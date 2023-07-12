@@ -121,14 +121,16 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 17px;
     font-weight: 500;
-    transition: all 1s linear;
+    transition: all 0.33s linear;
 }
 .common_np_btn:hover {
     color: #333333;
-    font-weight: 700;
 }
-.common_np_btn .active {
+.common_np_btn:active {
     color: #333333;
     font-weight: 700;
 }
 /* slider section ends */
+
+/* welcome section starts */
+/* welcome section ends */

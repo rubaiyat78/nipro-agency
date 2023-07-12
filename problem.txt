@@ -1,0 +1,2 @@
+1. next/prev button is not working on medium to col view.
+next/prev button is not working for active class
