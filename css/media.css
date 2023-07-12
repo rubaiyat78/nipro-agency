@@ -1,0 +1,137 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* common code  */
+    .common_btn {
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+    /* common code  */
+
+    /* slider starts */
+    .sl_item {
+        margin: 115px 0 120px;
+        text-align: center;
+    }
+    .sl_h1 {
+        font-size: 30px;
+        padding: 0 25px;
+    }
+    .sl_p {
+        margin: 30px 15px 50px;
+    }
+    .common_carousel {
+        width: 64%;
+    }
+    .common_np {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .common_np_btn {
+        font-size: 15px;
+    }
+    /* slider ends */
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* common code  */
+    .common_btn {
+        font-size: 15px;
+        padding: 12px 35px;
+    }
+    /* common code  */
+
+    /* slider starts */
+    .sl_item {
+        margin: 150px 0 150px;
+        text-align: center;
+    }
+    .sl_h1 {
+        font-size: 45px;
+    }
+    .sl_p {
+        margin: 35px 20px 50px;
+    }
+    .common_carousel {
+        width: 79%;
+    }
+    .common_np {
+        width: 25%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .common_np_btn {
+        font-size: 15px;
+    }
+    /* slider ends */
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* slider starts */
+    .sl_item {
+        margin: 150px 0 150px;
+        text-align: center;
+    }
+    .sl_p {
+        margin: 45px 0 60px;
+    }
+    .common_carousel {
+        width: 85%;
+    }
+    .common_np {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* slider ends */
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* slider starts */
+    .sl_h1 {
+        font-size: 50px;
+    }
+    .sl_p {
+        margin: 40px 0 60px;
+        width: 90%;
+    }
+    .common_btn {
+        padding: 12px 40px
+    }
+    .common_carousel {
+        left: 43px;
+    }
+    /* slider ends */
+    
+}
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* slider starts */
+    .common_carousel {
+        left: 52px;
+    }
+    /* slider ends */
+    
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    /* slider starts  */
+    .sl_p {
+        width: 87%;
+    }
+    /* slider ends  */
+    
+}

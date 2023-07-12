@@ -1,0 +1,134 @@
+/* font links */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+/* common code */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+.common_btn {
+    border: 1.5px solid black;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 45px;
+    background-color: transparent;
+    position: relative;
+    transition: all 1s ease;
+    z-index: 1;
+    overflow: hidden;
+    text-decoration: none;
+}
+.common_btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #333333;
+    transition: all 1s ease;
+}
+.common_btn:hover:before {
+    z-index: -1;
+    width: 100%;
+}
+.common_btn:hover {
+    color: white;
+    /* background-color: #333333; */
+}
+.common_btn:active {
+    color: white;
+    background-color: #333333;
+}
+.common_btn span i {
+    font-size: 16px;
+    margin-left: 16px;
+}
+/* common code */
+
+/* header starts */
+
+/* header ends */
+
+/* slider section starts */
+.slider {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sl_item {
+    margin: 200px 0 180px;
+}
+.sl_h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+.sl_p {
+    margin: 50px 0 60px;
+    color: white;
+    line-height: 30px;
+}
+.sl_btn {
+    color: white;
+    border: 1.5px solid white;
+    transition: all 1s ease;
+    z-index: 1;
+}
+.sl_btn::before {
+    background-color: white;
+    z-index: -1;
+}
+.sl_btn:hover {
+    color: #333333;
+}
+.sl_btn:active {
+    color: #333333;
+    background-color: white;
+}
+.common_carousel {
+    margin: 0;
+    width: 8%;
+    left: 53px;
+    bottom: -14px;
+}
+.common_carousel [data-bs-target] {
+    width: 3px;
+    height: 30px;
+    background-color: #333333;
+}
+.common_carousel .active {
+    height: 34px;
+}
+.common_np {
+    width: 22%;
+}
+.common_np_btn {
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    color: #8e8e8e;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 1s linear;
+}
+.common_np_btn:hover {
+    color: #333333;
+    font-weight: 700;
+}
+.common_np_btn .active {
+    color: #333333;
+    font-weight: 700;
+}
+/* slider section ends */

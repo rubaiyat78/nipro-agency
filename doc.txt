@@ -1,0 +1,44 @@
+FONT-FAMILY:
+============
+
+1. b_h1,  header_menu,lato bold
+2. logo, lato medium
+3. pev|||next, lato semibold
+4. b_p, welcome_p, : roboto reg
+5. section_h1, lato reg
+
+Lato:
+    font-family: 'Lato', sans-serif;
+
+Roboto:
+    font-family: 'Roboto', sans-serif;
+
+COLOR:
+======
+
+Ash: #8e8e8e
+ash_hover, black: #333333
+white
+
+
+
+
+TRACK STYLES
+============
+
+HEADER:
+    header style:
+        transparent header
+        sticky header
+
+    mobile view:
+        collapse
+
+        all horigontally and vertically center
+        logo        toggle btn
+            search box
+            menu item
+
+    search box:
+        collapse right to left
+        expanded on mobile view
