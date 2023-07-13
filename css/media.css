@@ -32,6 +32,15 @@
         font-size: 15px;
     }
     /* slider ends */
+
+    /* welcome starts  */
+    .common_sec_h1 {
+        font-size: 22px;
+    }
+    .common_sec_p {
+        margin: 30px 15px 70px;
+    }
+    /* welcome ends  */
     
 }
 
@@ -68,6 +77,15 @@
         font-size: 15px;
     }
     /* slider ends */
+
+    /* welcome starts  */
+    .common_sec_h1 {
+        font-size: 25px;
+    }
+    .common_sec_p {
+        margin: 35px 0 70px;
+    }
+    /* welcome ends  */
     
 }
 
@@ -90,6 +108,15 @@
         margin-left: auto;
     }
     /* slider ends */
+
+     /* welcome starts  */
+    .common_sec_h1 {
+        font-size: 25px;
+    }
+    .common_sec_p {
+        margin: 40px 0 80px;
+    }
+    /* welcome ends  */
     
 }
 
@@ -110,6 +137,15 @@
         left: 43px;
     }
     /* slider ends */
+
+    /* welcome starts  */
+    .common_sec_bar {
+        height: 40px;
+    }
+    .common_sec_h1 {
+        font-size: 25px;
+    }
+    /* welcome ends  */
     
 }
 
