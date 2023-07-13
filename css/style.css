@@ -52,6 +52,29 @@ body {
     font-size: 16px;
     margin-left: 16px;
 }
+.common_sec_heading {
+    margin: 0 auto;
+}
+.common_sec_bar {
+    margin: 0 auto;
+    width: 2px;
+    height: 50px;
+    background-color: #333333;
+}
+.common_sec_h1 {
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+.common_sec_p {
+    margin: 50px 0 100px;
+    line-height: 30px;
+    text-align: center;
+}
 /* common code */
 
 /* header starts */
@@ -133,4 +156,6 @@ body {
 /* slider section ends */
 
 /* welcome section starts */
+.welcome {}
+.we_card {}
 /* welcome section ends */

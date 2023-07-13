@@ -1,2 +1,3 @@
 1. next/prev button is not working on medium to col view.
 next/prev button is not working for active class
+3. how to align vertically and horigontally perfectly next/prev button

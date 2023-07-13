@@ -42,3 +42,8 @@ HEADER:
     search box:
         collapse right to left
         expanded on mobile view
+
+COMMON STYLES:
+1. section gap
+2. section h1
+3. 
