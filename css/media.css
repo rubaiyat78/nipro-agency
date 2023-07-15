@@ -38,7 +38,7 @@
         font-size: 22px;
     }
     .common_sec_p {
-        margin: 30px 15px 70px;
+        margin: 30px 15px 25px;
     }
     /* welcome ends  */
     
@@ -51,6 +51,9 @@
     .common_btn {
         font-size: 15px;
         padding: 12px 35px;
+    }
+    .common_margin {
+        margin-bottom: 75px;
     }
     /* common code  */
 
@@ -83,7 +86,7 @@
         font-size: 25px;
     }
     .common_sec_p {
-        margin: 35px 0 70px;
+        margin: 35px 0 25px;
     }
     /* welcome ends  */
     
@@ -114,7 +117,7 @@
         font-size: 25px;
     }
     .common_sec_p {
-        margin: 40px 0 80px;
+        margin: 40px 0 30px;
     }
     /* welcome ends  */
     
@@ -124,6 +127,9 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
     /* slider starts */
+    .sl_item {
+        margin: 180px 0 160px;
+    }
     .sl_h1 {
         font-size: 50px;
     }
@@ -157,6 +163,12 @@
         left: 52px;
     }
     /* slider ends */
+
+    /* about starts  */
+    .ab_p {
+        margin: 20px 45px 20px 0;
+    }
+    /* about ends  */
     
 }
 

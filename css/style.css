@@ -11,6 +11,9 @@ body {
     font-weight: 400;
     color: #8e8e8e;
 }
+.common_margin {
+    margin-bottom: 100px;
+}
 .common_btn {
     border: 1.5px solid black;
     font-family: 'Lato', sans-serif;
@@ -35,9 +38,10 @@ body {
     height: 100%;
     background-color: #333333;
     transition: all 1s ease;
+    z-index: -1;
 }
 .common_btn:hover:before {
-    z-index: -1;
+    
     width: 100%;
 }
 .common_btn:hover {
@@ -156,6 +160,60 @@ body {
 /* slider section ends */
 
 /* welcome section starts */
-.welcome {}
-.we_card {}
+/* .welcome {} */
+/* .we_card {} */
+.we_card_item {
+    margin: 50px 0 0;
+    padding: 57px 20px 30px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+.we_card_icon {
+    margin: -90px auto 0px;
+    width: 70px;
+    font-size: 60px;
+    background-color: white;
+}
+.we_card_h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.we_card_hr {
+    width: 50px;
+    margin: 18px auto 18px;
+    border: 1px solid #8e8e8e;
+}
+.we_card_p {
+    line-height: 27px;
+}
+.we_card_link {
+    font-weight: 700;
+    color: #8e8e8e;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.we_card_link span i {
+    font-size: 16px;
+    margin-left: 10px;
+}
+.we_card_item:hover {
+    border: 1px solid #333333;
+}
+.we_card_item, .we_card_icon, .we_card_link {
+    transition: 0.33s all ease;
+}
+.we_card_item:hover .we_card_icon, .we_card_item:hover .we_card_link {
+    color: #333333;
+}
 /* welcome section ends */
+
+/* about starts */
+.about {}
+.ab_img {}
+.ab_h1 {}
+.ab_p {
+    margin: 45px 50px 45px 0;
+}
+/* about ends */

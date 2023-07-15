@@ -19,6 +19,7 @@ COLOR:
 Ash: #8e8e8e
 ash_hover, black: #333333
 white
+border: #cccccc
 
 
 
