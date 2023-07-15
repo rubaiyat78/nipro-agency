@@ -176,6 +176,9 @@
 @media (min-width: 1400px) {
 
     /* slider starts  */
+    .sl_item {
+        margin: 200px 0 300px;
+    }
     .sl_p {
         width: 87%;
     }
