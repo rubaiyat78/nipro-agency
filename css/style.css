@@ -14,6 +14,9 @@ body {
 .common_margin {
     margin-bottom: 100px;
 }
+.common_padding {
+    padding-bottom: 100px;
+}
 .common_btn {
     border: 1.5px solid black;
     font-family: 'Lato', sans-serif;
@@ -199,10 +202,11 @@ body {
     margin-left: 10px;
 }
 .we_card_item:hover {
+    transform: scale(1.025);
     border: 1px solid #333333;
 }
 .we_card_item, .we_card_icon, .we_card_link {
-    transition: 0.33s all ease;
+    transition: 0.5s all ease;
 }
 .we_card_item:hover .we_card_icon, .we_card_item:hover .we_card_link {
     color: #333333;
@@ -210,10 +214,82 @@ body {
 /* welcome section ends */
 
 /* about starts */
-.about {}
-.ab_img {}
-.ab_h1 {}
+/* .about {} */
+/* .ab_img img {} */
+.ab_h1 {
+    text-align: left;
+}
+.ab_content {
+    margin-left: 45px;
+}
 .ab_p {
-    margin: 45px 50px 45px 0;
+    text-align: left;
+    margin: 20px 0 20px;
 }
 /* about ends */
+
+/* work starts */
+.work {
+    background-color: #ededed;
+}
+.work_img {
+    margin-top: 30px;
+    position: relative;
+}
+.work_img img {
+    width: 100%;
+    height: auto;
+}
+.work_img_hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.318);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: 1s all ease;
+}
+.work_img_hover:hover {
+    opacity: 1;
+} 
+.icon_overlay {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    transition: 1.5s all ease;
+}
+.work_img_hover:hover .icon_overlay {
+    top: 45%;
+}
+.title {
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    background-color: white;
+    padding: 10px 30px;
+    transition: 1.5s all ease;
+}
+.work_img_hover:hover .title {
+    bottom: 0;
+}
+.title h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+.title p {
+    text-transform: capitalize;
+}
+/* work ends */

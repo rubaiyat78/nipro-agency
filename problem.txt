@@ -3,3 +3,5 @@ next/prev button is not working for active class
 3. how to align vertically and horigontally perfectly next/prev button
 
 4. can i use legend element to create welcome card
+
+5. spacing problem
