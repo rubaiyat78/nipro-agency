@@ -156,7 +156,7 @@ body {
 .common_np_btn:hover {
     color: #333333;
 }
-.common_np_btn:active {
+.common_np_btn .active {
     color: #333333;
     font-weight: 700;
 }
@@ -498,10 +498,12 @@ body {
 /* call to action */
 
 /* testimonial starts */
-.testimonial {}
-.test_item {
-    padding: 40px 30px 10px;
+/* .testimonial {} */
+.test_car_wrap {
     border: 1px solid #8e8e8e;
+}
+.test_item {
+    padding: 40px 30px;
 }
 .test_item_pic {
     position: relative;
@@ -520,7 +522,7 @@ body {
     line-height: 30px;
     color: #333333;
 }
-.test_item_text {}
+/* .test_item_text {} */
 .test_item_text_name {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
@@ -540,14 +542,28 @@ body {
     color: #333333;
 }
 .test_item_text_det {
-    margin: 30px 0;
+    margin: 30px 0 0;
 }
 .test_np {
     padding: 40px 20px;
     border: 1px solid #8e8e8e;
     background-color: #f8f8f8;
 }
-.test_carousel {}
+/* .test_carousel {} */
+.test_carousel_indicator {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: rotate(90deg) translateY(0%) translateX(-200%);
+}
+.test_carousel_indicator [data-bs-target] {
+    width: 2px;
+    height: 16px;
+    background-color: #333333;
+}
+.test_carousel_indicator .active {
+    height: 20px;
+}
 .test_np_wrap {
     height: 100%;
     display: flex;
@@ -555,6 +571,7 @@ body {
     align-content: space-between;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .test_np_btn {
     font-family: 'Lato', sans-serif;
@@ -567,4 +584,54 @@ body {
     transition: all 0.33s linear;
     transform: rotate(90deg);
 }
+.test_np_btn:hover {
+    color: #333333;
+}
+.test_np_btn .active {
+    font-weight: 700;
+    color: #333333;
+}
+
+/* md to col screen  */
+.test_np_wrap_md {
+    width: 25%;
+    margin: 0 auto 20px;
+    display: flex !important;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.test_np_btn_md {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #8e8e8e;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.33s linear;
+}
+.test_np_btn_md:hover {
+    color: #333333;
+}
+.test_np_btn_md .active {
+    font-weight: 700;
+    color: #333333;
+}
+.test_carousel_indicator_md {
+    position: absolute;
+    bottom: -100%;
+}
+.test_carousel_indicator_md [data-bs-target] {
+    width: 2px;
+    height: 25px;
+    background-color: #333333;
+}
+.test_carousel_indicator_md .active {
+    height: 30px;
+}
+
+/* md to col screen  */
 /* testimonial ends */

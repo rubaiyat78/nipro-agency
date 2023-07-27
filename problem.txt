@@ -3,7 +3,10 @@
 3. category menu
 
 4. pricing table
+    title spacing
+    button hover
 
-5. 
+5. testimonial
+    indicator is not working
 
 6. 

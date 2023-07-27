@@ -109,6 +109,34 @@
         text-align: center;
     }
     /* call-to-action */
+
+    /* testimonial starts  */
+    .test_item {
+        padding: 30px 10px;
+    }
+    .test_car_wrap {
+        margin: 20px 20px 0;
+    }
+    .test_item_pic {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .test_item_text {
+        text-align: center;
+        margin: 15px 0 0;
+    }
+    .test_item_text_po {
+        margin: 2px 0;
+    }
+    .test_item_text_det {
+        margin: 15px 0 15px;
+    }
+    .test_carousel_indicator_md {
+        margin: 20px 0;
+        top: -25px;
+        bottom: -100%;
+    }
+    /* testimonial ends  */
     
 }
 
@@ -219,6 +247,23 @@
         text-align: center;
     }
     /* call-to-action */
+
+    /* testimonial starts  */
+    .test_item_pic {
+        width: 55%;
+        margin: 0 auto;
+    }
+    .test_item_text {
+        text-align: center;
+        margin: 20px 0 0;
+    }
+    .test_item_text_po {
+        margin: 2px 0;
+    }
+    .test_item_text_det {
+        margin: 20px 0 0;
+    }
+    /* testimonial ends  */
     
 }
 
@@ -298,6 +343,16 @@
         margin-top: 70px;
     }
     /* price ends */
+
+    /* testimonial starts  */
+    .test_item_text_det {
+        margin: 5px 0 0;
+    }
+    .test_item_text_po, .test_item_text_co {
+        font-size: 16px;
+        margin: 0;
+    }
+    /* testimonial ends  */
     
 }
 
