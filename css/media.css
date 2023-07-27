@@ -6,6 +6,12 @@
         font-size: 15px;
         padding: 10px 30px;
     }
+    .common_margin {
+        margin-bottom: 45px;
+    }
+    .common_padding {
+        padding-bottom: 45px;
+    }
     /* common code  */
 
     /* slider starts */
@@ -38,18 +44,71 @@
         font-size: 22px;
     }
     .common_sec_p {
-        margin: 30px 15px 25px;
+        margin: 30px 0 35px;
+        padding: 0 20px;
+    }
+    .we_card_item {
+        margin: 50px 20px 0;
     }
     /* welcome ends  */
 
     /* about starts  */
     .ab_content {
+        margin-left: 0;
         text-align: center;
     }
     .ab_h1, .ab_p {
         text-align: center;
     }
     /* about ends  */
+
+    /* work starts */
+    .work_img {
+        margin: 30px 20px 0;
+    }
+    /* work ends */
+
+    /* service starts  */
+    .s_service_icon {
+        margin-right: 5px;
+        font-size: 35px;
+    }
+    .s_service_h2 {
+        font-size: 16px;
+    }
+    .s_service_p {
+        margin: 25px 0 30px;
+    }
+    .s_service, .s_row {
+        margin-top: 40px;
+    }
+    .s_service_title {
+        justify-content: center;
+    }
+    /* service ends  */
+
+    /* person starts */
+    .p_info {
+        margin: 50px 20px 0;
+    }
+    /* person ends */
+
+    /* price starts  */
+    .s_price_card {
+        margin: 50px 20px 0;
+        padding: 0 25px;
+    }
+    /* price ends  */
+
+    /* call-to-action */
+    .call-to-action {
+        padding: 30px 0;
+    }
+    .cta_h3 {
+        margin-bottom: 30px !important;
+        text-align: center;
+    }
+    /* call-to-action */
     
 }
 
@@ -62,7 +121,13 @@
         padding: 12px 35px;
     }
     .common_margin {
-        margin-bottom: 75px;
+        margin-bottom: 70px;
+    }
+    .common_padding {
+        padding-bottom: 70px;
+    }
+    .common_sec_bar {
+        height: 35px;
     }
     /* common code  */
 
@@ -95,23 +160,79 @@
         font-size: 25px;
     }
     .common_sec_p {
+        padding: 0;
         margin: 35px 0 25px;
     }
     /* welcome ends  */
 
     /* about starts  */
     .ab_content {
+        margin-left: 0;
         text-align: center;
     }
     .ab_h1, .ab_p {
         text-align: center;
     }
     /* about ends  */
+
+    /* service starts  */
+    .s_service_icon {
+        margin-right: 5px;
+        font-size: 35px;
+    }
+    .s_service_h2 {
+        font-size: 16px;
+    }
+    .s_service_p {
+        margin: 25px 0 30px;
+    }
+    .s_service, .s_row {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .s_service_title {
+        justify-content: center;
+    }
+    /* service ends  */
+
+    /* person starts  */
+    .p_info_det_h3 {
+        font-size: 16px;
+    }
+    .p_info_det_p {
+        font-size: 15px;
+    }
+    .p_info {
+        margin-top: 50px;
+    }
+    /* person ends  */
+
+    /* price starts */
+    .s_price_card {
+        margin-top: 50px;
+    }
+    /* price ends */
+
+    /* call-to-action */
+    .cta_h3 {
+        margin-bottom: 35px !important;
+        text-align: center;
+    }
+    /* call-to-action */
     
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* common code */
+    .common_sec_bar {
+        height: 40px;
+    }
+    .common_margin {
+        margin-bottom: 70px;
+    }
+    /* common code */
 
     /* slider starts */
     .sl_item {
@@ -141,12 +262,42 @@
 
     /* about starts  */
     .ab_content {
+        margin-left: 0;
         text-align: center;
     }
     .ab_h1, .ab_p {
         text-align: center;
     }
     /* about ends  */
+
+    /* service starts  */
+    .s_service_icon {
+        margin-right: 5px;
+        font-size: 35px;
+    }
+    .s_service_h2 {
+        font-size: 16px;
+    }
+    .s_service_p {
+        margin: 25px 0 30px;
+    }
+    .s_service, .s_row {
+        margin-top: 40px;
+    }
+    /* service ends  */
+
+    /* person starts */
+    .p_info {
+        margin-top: 60px;
+    }
+    
+    /* person ends */
+
+    /* price starts */
+    .s_price_card {
+        margin-top: 70px;
+    }
+    /* price ends */
     
 }
 
@@ -185,9 +336,37 @@
         line-height: 27px;
         font-size: 15px; 
     }
-    
-    
     /* about ends  */
+
+    /* person starts  */
+    .p_info_det {
+        padding: 20px 15px;
+    }
+    .p_info_det_h3 {
+        font-size: 16px;
+    }
+    .p_info_det_p {
+        font-size: 15px;
+    }
+    /* person ends  */
+
+    /* price starts  */
+    .s_price_card_title {
+        width: 40%;
+    }
+    .s_price_card_title_p span {
+        font-size: 30px;
+    }
+    .s_price_card_title_p {
+        margin: 30px 0;
+    }
+    .s_price_card {
+        padding: 0 20px;
+    }
+    .s_price_card_btn {
+        margin: 40px 0 35px;
+    }
+    /* price ends  */
     
 }
 
@@ -203,6 +382,12 @@
     /* about starts  */
     
     /* about ends  */
+
+    /* person starts  */
+    .p_info_det {
+        padding: 20px 25px;
+    }
+    /* person ends  */
     
 }
 

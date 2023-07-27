@@ -21,31 +21,4 @@ ash_hover, black: #333333
 white
 border: #cccccc
 recent work bg: #f8f8f8
-
-
-
-
-TRACK STYLES
-============
-
-HEADER:
-    header style:
-        transparent header
-        sticky header
-
-    mobile view:
-        collapse
-
-        all horigontally and vertically center
-        logo        toggle btn
-            search box
-            menu item
-
-    search box:
-        collapse right to left
-        expanded on mobile view
-
-COMMON STYLES:
-1. section gap
-2. section h1
-3. 
+ 
