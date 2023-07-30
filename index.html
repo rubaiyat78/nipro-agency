@@ -19,7 +19,72 @@
   </head>
   <body>
 
-    
+    <!-- header starts -->
+    <header>
+      
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+          <!-- logo  -->
+          <a class="navbar-brand logo" href="#">Nipro Agency</a>
+
+          <!-- toggle btn  -->
+          <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon burger_btn"></span>
+          </button>
+
+          <!-- menu title  -->
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header off_header">
+              
+              <h5 class="offcanvas-title header_logo_off" id="offcanvasNavbarLabel">Nipro Agency</h5>
+
+              <button type="button" class="btn-close off_header_close_btn shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+            </div>
+
+            <hr class="off_header_hr d-block d-lg-none">
+
+            <!-- menu body  -->
+            <div class="offcanvas-body off_header_body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 header_menu align-items-lg-center">
+
+                <li class="nav-item header_menu_item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item header_menu_item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+
+                <li class="nav-item header_menu_item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+
+                <li class="nav-item header_menu_item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item header_menu_item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+
+              </ul>
+
+              <form class="search">
+                <div class="search-box">
+                  <button type="submit" class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  <input type="text" placeholder="Search..." class="input-search">
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+    <!-- header ends -->
 
     <!-- slider section starts -->
     <section class="slider">
@@ -204,11 +269,9 @@
             <div class="ab_content">
               <h1 class="common_sec_h1 ab_h1 m-0">About US</h1>
               <p class="common_sec_p ab_p">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industr hello Ipsum has been the industry's standard dummy text ever since the 1500s,  ian unknown printer took a galley omen book. It has survived not only five ies, but also the leap into electronic typesetting, remaining essentially un also the leap into electronic typesetting, remaining essentially un <span>with the release of Letraset sheets containing Lorem Ipsum passages, heo and more recently with desktop publishing software like A PageMaker including versions of Lorem Ipsum.</span>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industr hello Ipsum has been the industry's standard dummy text ever since the 1500s,  ian unknown printer took a galley omen book. It has survived not only five ies, but also the leap into electronic typesetting, remaining essentially un also the leap into electronic typesetting, remaining essentially un <br class="d-none d-xl-block"> <br class="d-none d-xl-block"> with the release of Letraset sheets containing Lorem Ipsum passages, heo and more recently with desktop publishing software like A PageMaker including versions of Lorem Ipsum.
               </p>
-              <p class="common_sec_p ab_p text-start mt-lg-0 d-none d-sm-none d-md-none d-lg-block">
-                with the release of Letraset sheets containing Lorem Ipsum passages, heo and more recently with desktop publishing software like A PageMaker including versions of Lorem Ipsum.
-              </p>
+    
               <a href="#" class="common_btn">
                 Learn More <span><i class="fa-solid fa-right-long"></i></span>
               </a>
@@ -915,7 +978,21 @@
                   <!-- carousel content -->
 
                   <!-- carousel-indicators -->
-                  <div class="test_np_wrap_md d-md-block d-lg-none">
+                  <div class="test_carousel d-none d-lg-block">
+                    <div class="carousel-indicators test_carousel_indicator align-items-center">
+              
+                      <button type="button" data-bs-target="#test_car" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                
+                      <button type="button" data-bs-target="#test_car" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                
+                      <button type="button" data-bs-target="#test_car" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                
+                    </div>
+                  </div>
+                  <!-- carousel-indicators -->
+
+                  <!-- carousel-indicators md -->
+                  <div class="test_np_wrap_md">
                     <div class="d-none d-sm-block">
                       <button class="test_np_btn_md" type="button" data-bs-target="#test_car" data-bs-slide="prev">prev</button>
                     </div>
@@ -938,7 +1015,7 @@
                       <button class="test_np_btn_md" type="button" data-bs-target="#test_car" data-bs-slide="next">next</button>
                     </div>
                   </div>
-                  <!-- carousel-indicators -->
+                  <!-- carousel-indicators md -->
 
                 </div>
               </div>
@@ -949,21 +1026,7 @@
                   <div>
                     <button class="test_np_btn" type="button" data-bs-target="#test_car" data-bs-slide="prev">prev</button>
                   </div>
-      
-                  <!-- carousel-indicators -->
-                  <div class="test_carousel">
-                    <div class="carousel-indicators test_carousel_indicator align-items-center">
-              
-                      <button type="button" data-bs-target="#test_car" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                
-                      <button type="button" data-bs-target="#test_car" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                
-                      <button type="button" data-bs-target="#test_car" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                
-                    </div>
-                  </div>
-                  <!-- carousel-indicators -->
-      
+
                   <div>
                     <button class="test_np_btn" type="button" data-bs-target="#test_car" data-bs-slide="next">next</button>
                   </div>
@@ -978,11 +1041,41 @@
     <!-- testimonial section ends -->
 
     <!-- contact section starts -->
-    <section class="contact">
+    <section class="contact common_margin">
       <div class="container">
         <div class="row">
-          <div class="col-xxl-7 col-lg-8">
-            
+          <div class="col-lg-12">
+
+            <div class="contact_wrap">
+
+              <div class="contact_title">
+                <h1 class="contact_title_h1 mb-0">Contact US</h1>
+              </div>
+
+              <div class="row name">
+                <div class="col-12 col-sm-6 fname">
+                  <input type="text" class="form-control form_input_style shadow-none" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-12 col-sm-6 lname">
+                  <input type="text" class="form-control form_input_style shadow-none" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+
+              <div class="col email">
+                <input type="email" class="form-control form_input_style shadow-none" placeholder="Your email">
+              </div>
+
+              <div class="col msz">
+                <textarea class="form-control form_input_style shadow-none" placeholder="your message..."></textarea>
+              </div>
+
+              <div class="contact_link">
+                <a href="#" class="common_btn">
+                  send Now <span><i class="fa-solid fa-right-long"></i></span>
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -990,7 +1083,96 @@
     <!-- contact section ends -->
 
     <!-- footer section starts -->
-    <footer></footer>
+    <footer>
+
+      <!-- footer upper body  -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 common_margin">
+
+            <!-- section heading  -->
+            <div class="row">
+              <div class="col-lg-4 common_sec_heading">
+                <div class="common_sec_bar d-none d-sm-block"></div>
+                <h1 class="common_sec_h1 mb-0">Why Choose Nipro</h1>
+              </div>
+            </div>
+            <!-- section heading  -->
+
+            <!-- paragraph -->
+            <div class="row justify-content-center">
+              <div class="col-lg-5">
+                <p class="footer_upper_p">
+                  Lorem Ipsum is simply dummy text of lol he the printing and typesetting industry. Lorem Ipsum Has been the koi jabi mama
+                </p>
+              </div>
+            </div>
+            <!-- paragraph -->
+
+            <!-- social  -->
+            <div class="row justify-content-center">
+              <div class="col-lg-5 col-md-6 col-sm-7 col-10">
+                <ul class="list-inline d-flex justify-content-between">
+
+                  <li class="list-inline-item footer_icon_bg"><a href="#"><span class="footer_icon"><i class="fa-brands fa-facebook-f"></i></span></a></li>
+
+                  <li class="list-inline-item footer_icon_bg"><a href="#"><span class="footer_icon"><i class="fa-brands fa-dribbble"></i></span></a></li>
+
+                  <li class="list-inline-item footer_icon_bg"><a href="#"><span class="footer_icon"><i class="fa-brands fa-behance"></i></span></a></li>
+
+                  <li class="list-inline-item footer_icon_bg"><a href="#"><span class="footer_icon"><i class="fa-brands fa-twitter"></i></span></a></li>
+
+                  <li class="list-inline-item footer_icon_bg"><a href="#"><span class="footer_icon"><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+
+                  <li class="list-inline-item footer_icon_bg"><a href="#"><span class="footer_icon"><i class="fa-brands fa-google-plus-g"></i></span></a></li>
+
+                </ul>
+              </div>
+            </div>
+            <!-- social  -->
+            
+          </div>
+        </div>
+      </div>
+      <!-- footer upper body  -->
+
+      <!-- divider -->
+      <hr class="footer_divider">
+      <!-- divider -->
+
+      <!-- footer lower body  -->
+      <div class="container">
+        <div class="row footer_lower">
+          <div class="col-lg-5">
+            <div class="footer_lower_text">
+              <p class="footer_lower_text_p mb-0">
+                All rights reserved NIPRO AGENCY | By : Arpon Das
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-7 col-sm-8">
+            <div>
+              <ul class="list-inline mb-0 footer_menu">
+                <li class="list-inline-item menu_item">
+                  <a href="#">Support</a>
+                </li>
+                <li class="list-inline-item menu_item">
+                  <a href="#">Sitemap</a>
+                </li>
+                <li class="list-inline-item menu_item">
+                  <a href="#">Contact US</a>
+                </li>
+                <li class="list-inline-item menu_item">
+                  <a href="#">Terms of Use</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer lower body  -->
+      
+    </footer>
     <!-- footer section ends -->
     
     

@@ -1,12 +1,12 @@
-1. about section 
-2. spacing problem
-3. category menu
+1. category menu
 
-4. pricing table
+2. pricing table
     title spacing
     button hover
+    can i use legend tag
 
-5. testimonial
-    indicator is not working
+3. testimonial
+    indicator is not working on md screen
 
-6. 
+4. header
+    icon positioning
